@@ -23,3 +23,15 @@
 
 /* v5 · lectura y rutas */
 .route-actions{margin-top:14px;margin-bottom:28px}.callout.compact{margin-top:14px}.places-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.place-index-card{text-decoration:none;color:inherit}.place-index-card .text-link{display:inline-block;margin-top:8px;color:var(--accent-2);font-weight:800}.reading{max-width:900px}.reading-section{margin-bottom:18px}.reading-section h2{font-size:1.35rem;margin-bottom:10px}.reading-section p{font-size:1.04rem;line-height:1.75}.place-head p{max-width:820px}.place .actions{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px}@media(max-width:760px){.places-index{grid-template-columns:1fr}.reading-section p{font-size:1rem}.route-actions .btn{width:100%;text-align:center}}
+
+/* v9 · acceso rápido a historia y datos de alquiler */
+.history-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.history-menu-card{display:block;transition:.18s transform,.18s box-shadow,.18s border-color}
+.history-menu-card:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(31,45,42,.12);border-color:#c9c2b7}
+.history-menu-card h3{margin:.2rem 0 .35rem;font-size:1.35rem}
+.history-menu-card p{margin:0;color:var(--muted)}
+.history-menu-card .text-link{display:inline-block;margin-top:12px;color:var(--accent-2);font-weight:800}
+.history-icon{font-size:1.8rem;margin-bottom:8px}
+.rental-card h3{margin:.25rem 0 .7rem}.rental-meta{color:var(--muted);font-size:.95rem}.rental-meta div{margin:.34rem 0}
+.callout.warning{background:#fff8e8;border-left-color:#b88b4a}
+@media(max-width:760px){.history-menu{grid-template-columns:1fr}}
